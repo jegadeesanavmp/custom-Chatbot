@@ -25,7 +25,7 @@ else:
     st.warning("Please upload an image file.")
 
 # Set up Google Gemini-Pro AI model
-genai.configure(api_key="AIzaSyADiVMqNHwMSE4TBkW7sKCh9XIZgMbSJSg")
+genai.configure(api_key="AIzaSyBkFd5OLgxhoA_DTlj2hqnk5UtigT8cSf4")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
 
 def translate_role_for_streamlit(user_role):
